@@ -64,7 +64,7 @@ def process_folders(parent_folder, md_file):
             subfolder_path = os.path.join(root, dir_name)
             # Extract problem name and YouTube link from the subfolder's README.md
             problem_name, problem_link, youtube_link = extract_readme_data(subfolder_path)
-            dir_link = 'https://github.com/Techtonic-knights/TechtonicKnights/' + section_title + '/' + dir_name
+            dir_link = 'https://github.com/Techtonic-knights/TechtonicKnights/tree/main/' + section_title + '/' + dir_name
             # If data exists, add it to the table
             if problem_name and youtube_link:
                 table_content += f"| [{dir_name}]({dir_link}) | [{problem_name}]({problem_link}) | [{youtube_link}]({youtube_link}) |\n"
