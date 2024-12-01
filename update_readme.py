@@ -76,7 +76,7 @@ def process_folders(parent_folder, md_file):
 
 if __name__ == "__main__":
     # List of parent folders to scan (e.g., only "LeetCode")
-    parent_folders_to_scan = ["LeetCode - Easy", "LeetCode - Binary Search"]
+    parent_folders_to_scan = ["LeetCode - Easy", "Pandas", "LeetCode - Binary Search"]
     
     # Get the current working directory
     directory = os.getcwd()  # Use the current directory
