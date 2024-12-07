@@ -98,7 +98,7 @@ def process_folders(parent_folder, md_file, is_non_lc=False):
 
 if __name__ == "__main__":
     # List of parent folders to scan (e.g., only "LeetCode")
-    parent_non_lc_folders_to_scan = []
+    parent_non_lc_folders_to_scan = ["LLM Projects"]
     parent_folders_to_scan = ["LeetCode - Easy", "Pandas", "LeetCode - Binary Search", "LeetCode - Sliding Window"]
     
     # Get the current working directory
