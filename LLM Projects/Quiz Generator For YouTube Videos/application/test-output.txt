@@ -1,0 +1,154 @@
+{
+  "quiz": [
+    {
+      "id": "44a26b13-ebef-4845-bc15-c38b75920c73",
+      "options": [
+        "A. Data manipulation",
+        "B. Data visualization",
+        "C. Machine learning",
+        "D. Web development"
+      ],
+      "question": "1. What is the purpose of the Pandas Library?"
+    },
+    {
+      "id": "90fb3448-672b-480a-9bc5-7be8069b2464",
+      "options": [
+        "A. 2D array",
+        "B. Dictionary",
+        "C. SQL table",
+        "D. Excel spreadsheet"
+      ],
+      "question": "2. What type of object is a data frame in Pandas?"
+    },
+    {
+      "id": "41991ee3-ca27-4385-81c6-80fa06099b97",
+      "options": [
+        "A. From a CSV file",
+        "B. From an HTML file",
+        "C. From a JSON file",
+        "D. All of the above"
+      ],
+      "question": "3. How can data be loaded into a data frame?"
+    },
+    {
+      "id": "a37f6afc-c08c-4517-9e1b-6cc80df0aed2",
+      "options": [
+        "A. A 2D object",
+        "B. A 1D array",
+        "C. A data frame",
+        "D. A function"
+      ],
+      "question": "4. What is a series in Pandas?"
+    },
+    {
+      "id": "0eb2515c-3f2d-48e6-92ea-097339d1bfe1",
+      "options": [
+        "A. Keys become the column names and values become the data",
+        "B. Values become the column names and keys become the data",
+        "C. Keys and values both become the column names and data",
+        "D. Keys and values both become the data in the columns"
+      ],
+      "question": "5. How can data be loaded from a dictionary into a data frame?"
+    },
+    {
+      "id": "2548d01a-d7fb-45f2-b312-3064c37cf88e",
+      "options": [
+        "A. head()",
+        "B. display()",
+        "C. show()",
+        "D. print()"
+      ],
+      "question": "6. Which method can be used to display the first y rows of a data frame?"
+    },
+    {
+      "id": "2d6804e0-f4c9-4e10-bd11-8e3a0c32ced1",
+      "options": [
+        "A. Using the filter() method",
+        "B. Using the sort_values() method",
+        "C. Using the lock() method",
+        "D. Using the add() method"
+      ],
+      "question": "7. How can data be selected based on a specific condition in a data frame?"
+    },
+    {
+      "id": "21b37a0a-c09b-4929-8c55-a96162f1e2ed",
+      "options": [
+        "A. Using the remove_duplicates() method",
+        "B. Using the drop_duplicates() method",
+        "C. Using the delete_duplicates() method",
+        "D. Using the eliminate_duplicates() method"
+      ],
+      "question": "8. How can duplicates be removed from a data frame?"
+    },
+    {
+      "id": "5ed2784a-467f-41fa-b230-bcf87a0e16df",
+      "options": [
+        "A. Using the remove_na() method",
+        "B. Using the drop_na() method",
+        "C. Using the delete_na() method",
+        "D. Using the eliminate_na() method"
+      ],
+      "question": "9. How can missing values in a specific column be removed from a data frame?"
+    },
+    {
+      "id": "a1ca0d16-2003-4539-83ea-e426cb76bc10",
+      "options": [
+        "A. Using the as_type() method",
+        "B. Using the change_type() method",
+        "C. Using the modify_type() method",
+        "D. Using the update_type() method"
+      ],
+      "question": "10. How can the data type of a column be changed in a data frame?"
+    },
+    {
+      "id": "b31d180d-04c4-471c-ae26-0e89fe021a44",
+      "options": [
+        "A. Using the fill_missing() method",
+        "B. Using the replace_missing() method",
+        "C. Using the change_missing() method",
+        "D. Using the fillna() method"
+      ],
+      "question": "11. How can missing values in a column be filled with a specific value in a data frame?"
+    },
+    {
+      "id": "5a0b1a06-9f06-4027-aa27-91aa39f0a893",
+      "options": [
+        "A. Using the join() method",
+        "B. Using the merge() method",
+        "C. Using the combine() method",
+        "D. Using the concat() method"
+      ],
+      "question": "12. How can two data frames be combined vertically?"
+    },
+    {
+      "id": "024720dd-2fa0-46ac-83b7-a962c9c7ee79",
+      "options": [
+        "A. Using the transpose() function",
+        "B. Using the pivot_table() function",
+        "C. Using the reshape() function",
+        "D. Using the melt() function"
+      ],
+      "question": "13. How can data be reshaped in a data frame to represent temperatures for specific months and cities?"
+    },
+    {
+      "id": "d1679a3d-c51e-4e1b-839f-119f2ab8fbe0",
+      "options": [
+        "A. Using the expand() method",
+        "B. Using the stretch() method",
+        "C. Using the melt() method",
+        "D. Using the reshape() method"
+      ],
+      "question": "14. How can data in a data frame be reshaped from wide to long format?"
+    },
+    {
+      "id": "00b374e9-83ee-4089-9a8e-9f6cdfef4019",
+      "options": [
+        "A. Using the filter() and sort() methods",
+        "B. Using the lock() and sort_values() methods",
+        "C. Using the select() and sort() methods",
+        "D. Using the search() and sort_values() methods"
+      ],
+      "question": "15. How can data be filtered and sorted in a data frame?"
+    }
+  ]
+}

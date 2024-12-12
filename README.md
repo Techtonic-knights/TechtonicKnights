@@ -5,6 +5,7 @@
 | Folder name | YouTube Link |
 |-------------|--------------|
 | [Build your own RAG for AWS reInvent 2024](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LLM%20Projects/Build%20your%20own%20RAG%20for%20AWS%20reInvent%202024) | [https://www.youtube.com/watch?v=I4gZ-Kui4lQ](https://www.youtube.com/watch?v=I4gZ-Kui4lQ) |
+| [Quiz Generator For YouTube Videos](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LLM%20Projects/Quiz%20Generator%20For%20YouTube%20Videos) | [https://www.youtube.com/watch?v=mgD2wSBlWiE](https://www.youtube.com/watch?v=mgD2wSBlWiE) |
 
 ## LeetCode - Breadth First Search
 | Folder name | Problem name | YouTube Link |
