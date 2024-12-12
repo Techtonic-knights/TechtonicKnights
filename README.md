@@ -4,7 +4,16 @@
 ## LLM Projects
 | Folder name | YouTube Link |
 |-------------|--------------|
-| [Build your own RAG for AWS re:Invent 2024](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LLM%20Projects/Build%20your%20own%20RAG%20for%20AWS%20re:Invent%202024) | [https://www.youtube.com/watch?v=I4gZ-Kui4lQ](https://www.youtube.com/watch?v=I4gZ-Kui4lQ) |
+| [Build your own RAG for AWS reInvent 2024](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LLM%20Projects/Build%20your%20own%20RAG%20for%20AWS%20reInvent%202024) | [https://www.youtube.com/watch?v=I4gZ-Kui4lQ](https://www.youtube.com/watch?v=I4gZ-Kui4lQ) |
+
+## LeetCode - Breadth First Search
+| Folder name | Problem name | YouTube Link |
+|-------------|--------------|--------------|
+| [965](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LeetCode%20-%20Breadth%20First%20Search/965) | [965. Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [https://www.youtube.com/watch?v=LWjtZUJ3dxc](https://www.youtube.com/watch?v=LWjtZUJ3dxc) |
+| [1469](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LeetCode%20-%20Breadth%20First%20Search/1469) | [1469. Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/) | [https://www.youtube.com/watch?v=LWjtZUJ3dxc](https://www.youtube.com/watch?v=LWjtZUJ3dxc) |
+| [993](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LeetCode%20-%20Breadth%20First%20Search/993) | [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [https://www.youtube.com/watch?v=LWjtZUJ3dxc](https://www.youtube.com/watch?v=LWjtZUJ3dxc) |
+| [1971](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LeetCode%20-%20Breadth%20First%20Search/1971) | [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [https://www.youtube.com/watch?v=LWjtZUJ3dxc](https://www.youtube.com/watch?v=LWjtZUJ3dxc) |
+| [1379](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LeetCode%20-%20Breadth%20First%20Search/1379) | [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [https://www.youtube.com/watch?v=LWjtZUJ3dxc](https://www.youtube.com/watch?v=LWjtZUJ3dxc) |
 
 ## LeetCode - Easy
 | Folder name | Problem name | YouTube Link |
