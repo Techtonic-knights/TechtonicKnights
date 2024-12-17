@@ -7,7 +7,9 @@ def get_subfolders(directory):
     for root, dirs, files in os.walk(directory, topdown=True):
         # The root is a folder, and dirs will contain its subdirectories
         # If dirs is empty, we stop the walk for that branch (it's the last level)
+        dirs.sort()
         if dirs:
+            print(dirs)
             subfolders.append((root, dirs))
         else:
             break
@@ -75,6 +77,7 @@ def process_folders(parent_folder, md_file, is_non_lc=False):
         
         # Now let's check the subdirectories in the last level of this folder
         last_level_subfolders = next(os.walk(root))[1]  # Get subdirectories in the current folder
+        last_level_subfolders.sort()
         if is_non_lc:
             table_content = "| Folder name | YouTube Link |\n|-------------|--------------|\n"
         else:
