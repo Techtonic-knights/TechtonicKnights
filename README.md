@@ -4,7 +4,7 @@
 ## LLM Projects
 | Folder name | YouTube Link |
 |-------------|--------------|
-| [Analyze YouTube Comments using AI](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LLM%20Projects/Analyze%20YouTube%20Comments%20using%20AI) | [https://www.youtube.com/watch?v=IOstwRKb9ts](https://www.youtube.com/watch?v=IOstwRKb9ts) |
+| [Analyze YouTube Comments using AI](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LLM%20Projects/Analyze%20YouTube%20Comments%20using%20AI) | [https://www.youtube.com/watch?v=OL_wgV8atww](https://www.youtube.com/watch?v=OL_wgV8atww) |
 | [Build your own RAG for AWS reInvent 2024](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LLM%20Projects/Build%20your%20own%20RAG%20for%20AWS%20reInvent%202024) | [https://www.youtube.com/watch?v=I4gZ-Kui4lQ](https://www.youtube.com/watch?v=I4gZ-Kui4lQ) |
 | [Quiz Generator For YouTube Videos](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/LLM%20Projects/Quiz%20Generator%20For%20YouTube%20Videos) | [https://www.youtube.com/watch?v=mgD2wSBlWiE](https://www.youtube.com/watch?v=mgD2wSBlWiE) |
 
