@@ -48,6 +48,22 @@
 | [2089](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Python/LeetCode%20-%20Binary%20Search/2089) | [2089. Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | [https://www.youtube.com/watch?v=RAXV300MEaM](https://www.youtube.com/watch?v=RAXV300MEaM) |
 | [1385](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Python/LeetCode%20-%20Binary%20Search/1385) | [1385. Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | [https://www.youtube.com/watch?v=yPH9yFcz6FY](https://www.youtube.com/watch?v=yPH9yFcz6FY) |
 
+## [Rust](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust)
+
+### [LeetCode - Breadth First Search](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Breadth%20First%20Search)
+
+| Folder Name | Problem Name | YouTube Link |
+|--------------|--------------|--------------|
+| [965](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Breadth%20First%20Search/965) | [965. Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [https://www.youtube.com/watch?v=VqkRKfQ6Ufk](https://www.youtube.com/watch?v=VqkRKfQ6Ufk) |
+| [637](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Breadth%20First%20Search/637) | [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [https://www.youtube.com/watch?v=VqkRKfQ6Ufk](https://www.youtube.com/watch?v=VqkRKfQ6Ufk) |
+
+### [LeetCode - Strings](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Strings)
+
+| Folder Name | Problem Name | YouTube Link |
+|--------------|--------------|--------------|
+| [1768](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Strings/1768) | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | [https://www.youtube.com/watch?v=Zst93RyckSc](https://www.youtube.com/watch?v=Zst93RyckSc) |
+| [345](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Strings/345) | [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [https://www.youtube.com/watch?v=Zst93RyckSc](https://www.youtube.com/watch?v=Zst93RyckSc) |
+
 ## [Pandas](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Pandas)
 
 | Folder Name | Problem Name | YouTube Link |

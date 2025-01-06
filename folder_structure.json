@@ -111,7 +111,32 @@
         }
       }
     },
-    "Rust": {},
+    "Rust": {
+      "LeetCode - Breadth First Search": {
+        "965": {
+          "problem_name": "965. Univalued Binary Tree",
+          "problem_link": "https://leetcode.com/problems/univalued-binary-tree/",
+          "youtube_link": "https://www.youtube.com/watch?v=VqkRKfQ6Ufk"
+        },
+        "637": {
+          "problem_name": "637. Average of Levels in Binary Tree",
+          "problem_link": "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
+          "youtube_link": "https://www.youtube.com/watch?v=VqkRKfQ6Ufk"
+        }
+      },
+      "LeetCode - Strings": {
+        "1768": {
+          "problem_name": "1768. Merge Strings Alternately",
+          "problem_link": "https://leetcode.com/problems/merge-strings-alternately/",
+          "youtube_link": "https://www.youtube.com/watch?v=Zst93RyckSc"
+        },
+        "345": {
+          "problem_name": "345. Reverse Vowels of a String",
+          "problem_link": "https://leetcode.com/problems/reverse-vowels-of-a-string/",
+          "youtube_link": "https://www.youtube.com/watch?v=Zst93RyckSc"
+        }
+      }
+    },
     "Pandas": {
       "1050": {
         "problem_name": "1050. Actors and Directors Who Cooperated At Least Three Times",
