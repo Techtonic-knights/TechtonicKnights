@@ -1,139 +1,84 @@
-import os
-import re
+import json
+import urllib.parse
 
-def get_subfolders(directory):
-    """Recursively gets subfolders, excluding the last level."""
-    subfolders = []
-    for root, dirs, files in os.walk(directory, topdown=True):
-        # The root is a folder, and dirs will contain its subdirectories
-        # If dirs is empty, we stop the walk for that branch (it's the last level)
-        dirs.sort()
-        if dirs:
-            print(dirs)
-            subfolders.append((root, dirs))
-        else:
-            break
-    return subfolders
+# Read the JSON file
+json_file_path = 'folder_structure.json'
+with open(json_file_path, 'r', encoding='utf-8') as json_file:
+    folder_structure = json.load(json_file)
 
-def write_to_markdown(md_file, content):
-    """Writes content to the markdown file."""
-    with open(md_file, 'a', encoding='utf-8') as f:
-        f.write(content)
-
-def extract_readme_data_for_non_lc(subfolder_path):
-    """Extracts problem name and YouTube link from a subfolder's README.md."""
-    readme_path = os.path.join(subfolder_path, "README.md")
-
-    if not os.path.exists(readme_path):
-        print(f"README.md not found in {subfolder_path}, skipping...")
-        return None
-
-    with open(readme_path, 'r', encoding='utf-8') as f:
-        readme_content = f.read()
-
-    # Regex to extract YouTube link
-    youtube_match = re.search(r'\[!\[Click to Play\]\(https://img\.youtube\.com/vi/([^/]+)', readme_content)
-    if youtube_match:
-        return f"https://www.youtube.com/watch?v={youtube_match.group(1)}"
-    return None
-
-
-def extract_readme_data(subfolder_path):
-    """Extracts problem name and YouTube link from a subfolder's README.md."""
-    readme_path = os.path.join(subfolder_path, "README.md")
+# Function to generate the README content recursively
+def generate_readme(folder_structure, level=1, path=''):
+    readme_content = ""
     
-    if not os.path.exists(readme_path):
-        print(f"README.md not found in {subfolder_path}, skipping...")
-        return None, None
-    
-    with open(readme_path, 'r', encoding='utf-8') as f:
-        readme_content = f.read()
-    
-    # Regex to extract problem name and problem link
-    problem_match = re.search(r'## Problem Link\s*\[([^\]]+)\]\(([^)]+)\)', readme_content)
-    if problem_match:
-        problem_name = problem_match.group(1)
-        problem_link = problem_match.group(2)
-    else:
-        problem_name, problem_link = None, None
-    
-    # Regex to extract YouTube link
-    youtube_match = re.search(r'\[!\[Click to Play\]\(https://img\.youtube\.com/vi/([^/]+)', readme_content)
-    if youtube_match:
-        youtube_link = f"https://www.youtube.com/watch?v={youtube_match.group(1)}"
-    else:
-        youtube_link = None
-    
-    return problem_name, problem_link, youtube_link
-
-def process_folders(parent_folder, md_file, is_non_lc=False):
-    """Processes folders recursively and writes to markdown file."""
-    subfolders = get_subfolders(parent_folder)
-    
-    for root, dirs in subfolders:
-        section_title = os.path.basename(root)  # Folder name
-        section_content = f"\n## {section_title}\n"
-        write_to_markdown(md_file, section_content)
+    # Iterate through the folder structure
+    for folder_name, folder_info in folder_structure.items():
+        # Skip empty folder info
+        if not folder_info:
+            continue
         
-        # Now let's check the subdirectories in the last level of this folder
-        last_level_subfolders = next(os.walk(root))[1]  # Get subdirectories in the current folder
-        last_level_subfolders.sort()
-        if is_non_lc:
-            table_content = "| Folder name | YouTube Link |\n|-------------|--------------|\n"
-        else:
-            table_content = "| Folder name | Problem name | YouTube Link |\n|-------------|--------------|--------------|\n"
+        # Generate the URL for this folder, excluding the root folder name
+        folder_path = f"{path}/{folder_name}" if path else folder_name
+        folder_path = '' if level == 1 else folder_path
+        folder_url = 'https://github.com/Techtonic-knights/TechtonicKnights/tree/main/' + urllib.parse.quote(folder_path)
         
-        for dir_name in last_level_subfolders:
-            subfolder_path = os.path.join(root, dir_name)
-            # Extract problem name and YouTube link from the subfolder's README.md
-            dir_link = 'https://github.com/Techtonic-knights/TechtonicKnights/tree/main/' + section_title + '/' + dir_name
-            dir_link = dir_link.replace(" ", "%20")
-            if is_non_lc:
-                youtube_link = extract_readme_data_for_non_lc(subfolder_path)
-                table_content += (f"| [{dir_name}]({dir_link}) | [{youtube_link}]({youtube_link}) |\n" if youtube_link else "")
+        # Create heading for the current folder, making the folder name a clickable link
+        readme_content += "#" * level + f" [{folder_name}]({folder_url})\n\n"
+        
+        # If the folder has subfolders, recurse deeper
+        if isinstance(folder_info, dict):
+            # If it's the penultimate folder (having subfolders with README)
+            has_problem_name = any('problem_name' in subfolder_info for subfolder_info in folder_info.values())
+            has_youtube_link = any('youtube_link' in subfolder_info for subfolder_info in folder_info.values()) 
+            
+            if has_problem_name and has_youtube_link:
+                # Generate a table for the folder containing subfolders with README
+                readme_content += "| Folder Name | Problem Name | YouTube Link |\n"
+                readme_content += "|--------------|--------------|--------------|\n"
+                for subfolder_name, subfolder_info in folder_info.items():
+                    if "problem_name" in subfolder_info:
+                        problem_name = subfolder_info.get("problem_name", "N/A")
+                        problem_link = subfolder_info.get("problem_link", "N/A")
+                        youtube_link = subfolder_info.get("youtube_link", "N/A")
+                        
+                        # Generate the URL for subfolders
+                        subfolder_url = f"{folder_url}/{urllib.parse.quote(subfolder_name)}"
+                        
+                        readme_content += f"| [{subfolder_name}]({subfolder_url}) | [{problem_name}]({problem_link}) | [{youtube_link}]({youtube_link}) |\n"
+                
+                # Add extra newline after the table
+                readme_content += "\n"
+            elif has_youtube_link:
+                # For non-lc folders, print the YouTube link in a table
+                readme_content += "| Folder Name | YouTube Link |\n"
+                readme_content += "|--------------|--------------|\n"
+                for subfolder_name, subfolder_info in folder_info.items():
+                    if "youtube_link" in subfolder_info:
+                        youtube_link = subfolder_info.get("youtube_link", "N/A")
+                        
+                        # Generate the URL for subfolders
+                        subfolder_url = f"{folder_url}/{urllib.parse.quote(subfolder_name)}"
+                        
+                        readme_content += f"| [{subfolder_name}]({subfolder_url}) | [{youtube_link}]({youtube_link}) |\n"
+
+                # Add extra newline after the table
+                readme_content += "\n"
             else:
-                problem_name, problem_link, youtube_link = extract_readme_data(subfolder_path)
-                table_content += (f"| [{dir_name}]({dir_link}) | [{problem_name}]({problem_link}) | [{youtube_link}]({youtube_link}) |\n" if problem_name and youtube_link else "")
-
-        # Write the table content to the markdown file
-        if table_content.strip():
-            write_to_markdown(md_file, table_content)
-
-if __name__ == "__main__":
-    # List of parent folders to scan (e.g., only "LeetCode")
-    parent_non_lc_folders_to_scan = ["LLM Projects"]
-    parent_folders_to_scan = ["LeetCode - Breadth First Search", "LeetCode - Easy", "Pandas", "LeetCode - Binary Search", "LeetCode - Sliding Window"]
-    
-    # Get the current working directory
-    directory = os.getcwd()  # Use the current directory
-    markdown_file = 'README.md'  # You can customize the markdown file name
-
-    # Initialize the markdown file
-    with open(markdown_file, 'w', encoding='utf-8') as f:
-        f.write("# Folder Structure\n\n")
-    
-    # Process each parent folder in the non lc list
-    for parent_folder in parent_non_lc_folders_to_scan:
-        full_parent_path = os.path.join(directory, parent_folder)
-        if os.path.isdir(full_parent_path):
-            # Start by writing the top-level section for the folder (e.g., "LeetCode")
-            # write_to_markdown(markdown_file, f"## {parent_folder}\n")
-            # Process subfolders under this parent folder
-            process_folders(full_parent_path, markdown_file, True)
+                # Recursively process subfolders at the next level
+                readme_content += generate_readme(folder_info, level + 1, folder_path)
+        
+        # If no subfolder, we just add a line break to separate folders
         else:
-            print(f"Warning: '{parent_folder}' does not exist in the current directory.")
-
-
-    # Process each parent folder in the list
-    for parent_folder in parent_folders_to_scan:
-        full_parent_path = os.path.join(directory, parent_folder)
-        if os.path.isdir(full_parent_path):
-            # Start by writing the top-level section for the folder (e.g., "LeetCode")
-            # write_to_markdown(markdown_file, f"## {parent_folder}\n")
-            # Process subfolders under this parent folder
-            process_folders(full_parent_path, markdown_file)
-        else:
-            print(f"Warning: '{parent_folder}' does not exist in the current directory.")
+            readme_content += "\n"
     
-    print(f"Markdown file '{markdown_file}' has been created/updated.")
+    return readme_content
+
+# Generate the README content
+readme_content = generate_readme(folder_structure)
+
+# Write the generated README to a file
+readme_file_path = 'README.md'
+with open(readme_file_path, 'w', encoding='utf-8') as readme_file:
+    readme_file.write(readme_content)
+
+print(f"README generated and saved to {readme_file_path}")
 

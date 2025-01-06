@@ -1,0 +1,193 @@
+{
+  "TechtonicKnights": {
+    "LLM Projects": {
+      "Build your own RAG for AWS reInvent 2024": {
+        "youtube_link": "https://www.youtube.com/watch?v=I4gZ-Kui4lQ"
+      },
+      "Quiz Generator For YouTube Videos": {
+        "youtube_link": "https://www.youtube.com/watch?v=mgD2wSBlWiE"
+      },
+      "Analyze YouTube Comments using AI": {
+        "youtube_link": "https://www.youtube.com/watch?v=OL_wgV8atww"
+      }
+    },
+    "Python": {
+      "LeetCode - Breadth First Search": {
+        "965": {
+          "problem_name": "965. Univalued Binary Tree",
+          "problem_link": "https://leetcode.com/problems/univalued-binary-tree/",
+          "youtube_link": "https://www.youtube.com/watch?v=LWjtZUJ3dxc"
+        },
+        "1469": {
+          "problem_name": "1469. Find All The Lonely Nodes",
+          "problem_link": "https://leetcode.com/problems/find-all-the-lonely-nodes/",
+          "youtube_link": "https://www.youtube.com/watch?v=LWjtZUJ3dxc"
+        },
+        "993": {
+          "problem_name": "993. Cousins in Binary Tree",
+          "problem_link": "https://leetcode.com/problems/cousins-in-binary-tree/",
+          "youtube_link": "https://www.youtube.com/watch?v=LWjtZUJ3dxc"
+        },
+        "1971": {
+          "problem_name": "1971. Find if Path Exists in Graph",
+          "problem_link": "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+          "youtube_link": "https://www.youtube.com/watch?v=LWjtZUJ3dxc"
+        },
+        "1379": {
+          "problem_name": "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+          "problem_link": "https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/",
+          "youtube_link": "https://www.youtube.com/watch?v=LWjtZUJ3dxc"
+        }
+      },
+      "LeetCode - Sliding Window": {
+        "2379": {
+          "problem_name": "2379. Minimum Recolors to Get K Consecutive Black Blocks",
+          "problem_link": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/",
+          "youtube_link": "https://www.youtube.com/watch?v=9gR4jhUimdA"
+        },
+        "3258": {
+          "problem_name": "3258. Count Substrings That Satisfy K-Constraint I",
+          "problem_link": "https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/",
+          "youtube_link": "https://www.youtube.com/watch?v=9gR4jhUimdA"
+        },
+        "3090": {
+          "problem_name": "3090. Maximum Length Substring With Two Occurrences",
+          "problem_link": "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/",
+          "youtube_link": "https://www.youtube.com/watch?v=9gR4jhUimdA"
+        },
+        "2269": {
+          "problem_name": "2269. Find the K-Beauty of a Number",
+          "problem_link": "https://leetcode.com/problems/find-the-k-beauty-of-a-number/",
+          "youtube_link": "https://www.youtube.com/watch?v=9gR4jhUimdA"
+        },
+        "3318": {
+          "problem_name": "3318. Find X-Sum of All K-Long Subarrays I",
+          "problem_link": "https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/",
+          "youtube_link": "https://www.youtube.com/watch?v=9gR4jhUimdA"
+        }
+      },
+      "LeetCode - Easy": {
+        "3330": {
+          "problem_name": "3330. Find the Original Typed String I",
+          "problem_link": "https://leetcode.com/problems/find-the-original-typed-string-i/",
+          "youtube_link": "https://www.youtube.com/watch?v=Sn2YAnJasnM"
+        },
+        "3274": {
+          "problem_name": "3274. Check if Two Chessboard Squares Have the Same Color",
+          "problem_link": "https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/",
+          "youtube_link": "https://www.youtube.com/watch?v=vhZz6iTqzrc"
+        },
+        "171": {
+          "problem_name": "171. Excel Sheet Column Number",
+          "problem_link": "https://leetcode.com/problems/excel-sheet-column-number/",
+          "youtube_link": "https://www.youtube.com/watch?v=s5ILAedMg9o"
+        }
+      },
+      "LeetCode - Binary Search": {
+        "1608": {
+          "problem_name": "1608. Special Array With X Elements Greater Than or Equal X",
+          "problem_link": "https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/",
+          "youtube_link": "https://www.youtube.com/watch?v=ZZn6eQuCH-8"
+        },
+        "2529": {
+          "problem_name": "2529. Maximum Count of Positive Integer and Negative Integer",
+          "problem_link": "https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/",
+          "youtube_link": "https://www.youtube.com/watch?v=ZYuDs0DIBhE"
+        },
+        "2824": {
+          "problem_name": "2824. Count Pairs Whose Sum is Less than Target",
+          "problem_link": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/",
+          "youtube_link": "https://www.youtube.com/watch?v=eipWwLcxKJY"
+        },
+        "2089": {
+          "problem_name": "2089. Find Target Indices After Sorting Array",
+          "problem_link": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+          "youtube_link": "https://www.youtube.com/watch?v=RAXV300MEaM"
+        },
+        "1385": {
+          "problem_name": "1385. Find the Distance Value Between Two Arrays",
+          "problem_link": "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/",
+          "youtube_link": "https://www.youtube.com/watch?v=yPH9yFcz6FY"
+        }
+      }
+    },
+    "Rust": {},
+    "Pandas": {
+      "1050": {
+        "problem_name": "1050. Actors and Directors Who Cooperated At Least Three Times",
+        "problem_link": "https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/",
+        "youtube_link": "https://www.youtube.com/watch?v=ejmv9RVXPk4"
+      },
+      "586": {
+        "problem_name": "586. Customer Placing the Largest Number of Orders",
+        "problem_link": "https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/",
+        "youtube_link": "https://www.youtube.com/watch?v=WrO9ylZxDG0"
+      },
+      "511": {
+        "problem_name": "511. Game Play Analysis I",
+        "problem_link": "https://leetcode.com/problems/game-play-analysis-i/",
+        "youtube_link": "https://www.youtube.com/watch?v=WrO9ylZxDG0"
+      },
+      "1693": {
+        "problem_name": "1693. Daily Leads and Partners",
+        "problem_link": "https://leetcode.com/problems/daily-leads-and-partners/",
+        "youtube_link": "https://www.youtube.com/watch?v=WrO9ylZxDG0"
+      },
+      "596": {
+        "problem_name": "596. Classes More Than 5 Students",
+        "problem_link": "https://leetcode.com/problems/classes-more-than-5-students/",
+        "youtube_link": "https://www.youtube.com/watch?v=WrO9ylZxDG0"
+      },
+      "1322": {
+        "problem_name": "1322. Ads Performance",
+        "problem_link": "https://leetcode.com/problems/ads-performance/",
+        "youtube_link": "https://www.youtube.com/watch?v=Ijs-PjOwyHs"
+      },
+      "1741": {
+        "problem_name": "1741. Find Total Time Spent by Each Employee",
+        "problem_link": "https://leetcode.com/problems/find-total-time-spent-by-each-employee/",
+        "youtube_link": "https://www.youtube.com/watch?v=WrO9ylZxDG0"
+      },
+      "2356": {
+        "problem_name": "2356. Number of Unique Subjects Taught by Each Teacher",
+        "problem_link": "https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/",
+        "youtube_link": "https://www.youtube.com/watch?v=WrO9ylZxDG0"
+      },
+      "1378": {
+        "problem_name": "1378. Replace Employee ID With The Unique Identifier",
+        "problem_link": "https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/",
+        "youtube_link": "https://www.youtube.com/watch?v=ejmv9RVXPk4"
+      },
+      "1173": {
+        "problem_name": "1173. Immediate Food Delivery I",
+        "problem_link": "https://leetcode.com/problems/immediate-food-delivery-i/",
+        "youtube_link": "https://www.youtube.com/watch?v=Ijs-PjOwyHs"
+      },
+      "607": {
+        "problem_name": "607. Sales Person",
+        "problem_link": "https://leetcode.com/problems/sales-person/",
+        "youtube_link": "https://www.youtube.com/watch?v=ejmv9RVXPk4"
+      },
+      "1907": {
+        "problem_name": "1907. Count Salary Categories",
+        "problem_link": "https://leetcode.com/problems/count-salary-categories/",
+        "youtube_link": "https://www.youtube.com/watch?v=Ijs-PjOwyHs"
+      },
+      "1484": {
+        "problem_name": "1484. Group Sold Products By The Date",
+        "problem_link": "https://leetcode.com/problems/group-sold-products-by-the-date/",
+        "youtube_link": "https://www.youtube.com/watch?v=WrO9ylZxDG0"
+      },
+      "1280": {
+        "problem_name": "1280. Students and Examinations",
+        "problem_link": "https://leetcode.com/problems/students-and-examinations/",
+        "youtube_link": "https://www.youtube.com/watch?v=ejmv9RVXPk4"
+      },
+      "570": {
+        "problem_name": "570. Managers with at Least 5 Direct Reports",
+        "problem_link": "https://leetcode.com/problems/managers-with-at-least-5-direct-reports/",
+        "youtube_link": "https://www.youtube.com/watch?v=ejmv9RVXPk4"
+      }
+    }
+  }
+}
