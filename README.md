@@ -61,8 +61,8 @@
 
 | Folder Name | Problem Name | YouTube Link |
 |--------------|--------------|--------------|
-| [1768](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Strings/1768) | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | [https://www.youtube.com/watch?v=Zst93RyckSc](https://www.youtube.com/watch?v=Zst93RyckSc) |
-| [345](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Strings/345) | [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [https://www.youtube.com/watch?v=Zst93RyckSc](https://www.youtube.com/watch?v=Zst93RyckSc) |
+| [1768](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Strings/1768) | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | [https://www.youtube.com/watch?v=QHh7ngcqoz4](https://www.youtube.com/watch?v=QHh7ngcqoz4) |
+| [345](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Rust/LeetCode%20-%20Strings/345) | [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [https://www.youtube.com/watch?v=QHh7ngcqoz4](https://www.youtube.com/watch?v=QHh7ngcqoz4) |
 
 ## [Pandas](https://github.com/Techtonic-knights/TechtonicKnights/tree/main/Pandas)
 

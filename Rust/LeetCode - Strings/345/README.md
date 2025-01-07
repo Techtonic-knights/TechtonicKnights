@@ -6,6 +6,6 @@
 
 Watch the video walkthrough of the solution here:
 
-[![Click to Play](https://img.youtube.com/vi/Zst93RyckSc/hqdefault.jpg)](https://www.youtube.com/watch?v=Zst93RyckSc)
+[![Click to Play](https://img.youtube.com/vi/QHh7ngcqoz4/hqdefault.jpg)](https://www.youtube.com/watch?v=QHh7ngcqoz4)
 
 
