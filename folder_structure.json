@@ -143,6 +143,26 @@
         "problem_link": "https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/",
         "youtube_link": "https://www.youtube.com/watch?v=ejmv9RVXPk4"
       },
+      "610": {
+        "problem_name": "610. Triangle Judgement",
+        "problem_link": "https://leetcode.com/problems/triangle-judgement/",
+        "youtube_link": "https://www.youtube.com/watch?v=Z7HU4hVhmic"
+      },
+      "1789": {
+        "problem_name": "1789. Primary Department for Each Employee",
+        "problem_link": "https://leetcode.com/problems/primary-department-for-each-employee/",
+        "youtube_link": "https://www.youtube.com/watch?v=Z7HU4hVhmic"
+      },
+      "1164": {
+        "problem_name": "1164. Product Price at a Given Date",
+        "problem_link": "https://leetcode.com/problems/product-price-at-a-given-date/",
+        "youtube_link": "https://www.youtube.com/watch?v=Z7HU4hVhmic"
+      },
+      "180": {
+        "problem_name": "180. Consecutive Numbers",
+        "problem_link": "https://leetcode.com/problems/consecutive-numbers/",
+        "youtube_link": "https://www.youtube.com/watch?v=Z7HU4hVhmic"
+      },
       "586": {
         "problem_name": "586. Customer Placing the Largest Number of Orders",
         "problem_link": "https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/",
@@ -152,6 +172,11 @@
         "problem_name": "511. Game Play Analysis I",
         "problem_link": "https://leetcode.com/problems/game-play-analysis-i/",
         "youtube_link": "https://www.youtube.com/watch?v=WrO9ylZxDG0"
+      },
+      "1204": {
+        "problem_name": "1204. Last Person to Fit in the Bus",
+        "problem_link": "https://leetcode.com/problems/last-person-to-fit-in-the-bus/",
+        "youtube_link": "https://www.youtube.com/watch?v=Z7HU4hVhmic"
       },
       "1693": {
         "problem_name": "1693. Daily Leads and Partners",
@@ -187,6 +212,11 @@
         "problem_name": "1173. Immediate Food Delivery I",
         "problem_link": "https://leetcode.com/problems/immediate-food-delivery-i/",
         "youtube_link": "https://www.youtube.com/watch?v=Ijs-PjOwyHs"
+      },
+      "1731": {
+        "problem_name": "1731. The Number of Employees Which Report to Each Employee",
+        "problem_link": "https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/",
+        "youtube_link": "https://www.youtube.com/watch?v=Z7HU4hVhmic"
       },
       "607": {
         "problem_name": "607. Sales Person",
